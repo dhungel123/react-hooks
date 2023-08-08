@@ -1,0 +1,41 @@
+difference between var, let and const
+
+var-->if we decleare a variable from var,
+ then we can aslo declare it again with the same name,
+  and if we want to re-assign its value
+   then we can do that too..
+
+let-->if we declare a variable with let,
+ then we cannot seclare it again with the same name
+  but can re-assign its value.
+
+const--> And if we declare variable with const,
+ then we can neither declare it again,
+  nor can re-assign its value.
+
+  ************Map vs Filter in Array*****************
+The map method is used to transform each item of an array,
+ while the filter method is used to select certain items of an array 
+ that meet a condition12. 
+
+ For example:
+// map example: double each number in the array
+let numbers = [1, 2, 3, 4];
+let doubled = numbers.map(x => x * 2); // [2, 4, 6, 8]
+
+// filter example: keep only even numbers in the array
+let numbers = [1, 2, 3, 4];
+let even = numbers.filter(x => x % 2 === 0); // [2, 4]
+
+
+
+***************Hooks****************
+starts with 'use' (both react and custom hooks)
+components must be upperCase
+hooks always invoke inside function/component body
+don't call hooks conditionally(if vitra lekhna mildaina)
+set functions don't update state immediately 
+
+
+***********material UI ***************
+material compoenet ko style lekhna lai sx lekhnu parcha
