@@ -7,31 +7,29 @@ import * as React from "react";
 import Typography from "@mui/material/Typography";
 
 const User = (props) => {
-    console.log(props);
+  const {userbornDate,userImage,userName,aboutUser}=props;
 
  
   return (
     <Card sx={{ maxWidth: 345 }}>
     <CardHeader
      
-      title={props.userName}
-      subheader={props.userbornDate}
+      title={userName}
+      subheader={userbornDate}
       
     />
     <CardMedia
       component="img"
       height="194"
-      src={props.userImage}
-      alt={props.userName}
+      src={userImage}
+      alt={userName}
     />
     <CardContent>
       <Typography variant="body2" color="text.secondary">
-       {props.aboutUser}
+       {aboutUser}
       </Typography>
     </CardContent>
   </Card>
-   
-
     
   );
 }
